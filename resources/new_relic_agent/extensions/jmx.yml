@@ -1,0 +1,8 @@
+﻿name: IDMMonitor
+version: 1.0
+enabled: true
+jmx:
+  - object_name: app.monitor:type=identityMonitor
+    metrics:
+      - attributes: getOperationDetails
+        type: monotonically_increasing
