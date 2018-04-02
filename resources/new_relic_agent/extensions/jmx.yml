@@ -5,4 +5,4 @@ jmx:
   - object_name: app.monitor:type=identityMonitor
     metrics:
       - attributes: OperationDetails
-        type: monotonically_increasing
+        type: simple
