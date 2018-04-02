@@ -4,5 +4,5 @@ enabled: true
 jmx:
   - object_name: app.monitor:type=identityMonitor
     metrics:
-      - attributes: getOperationDetails
+      - attributes: OperationDetails
         type: monotonically_increasing
